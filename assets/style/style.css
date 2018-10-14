@@ -1,7 +1,7 @@
+/* general styling */
 * {
     box-sizing: border-box;
     color: grey;
-
 }
 
 #myBrand {
@@ -13,40 +13,77 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-
     text-align: center;
     text-decoration: none;
-
 }
+
 .myLinks {
     text-align: right;
     position: relative;
     box-sizing: border-box;
 }
+
+/* general content all pages */
 #contentHeader {
     border-bottom: 5px solid grey;
     margin: 15px 15px 15px 0px;
-
-
 }
-.background {
+
+.backgroundImg {
     background: url("../images/concrete_seamless.png");
+    height: 100%;
 }
+
 .mainContent {
-    background: #212529;;
+    background: #212529;
+    margin-bottom: 15px;
+    border-bottom: 15px transparent;
 
 }
+
+.contentBody {
+    margin: 0px 0px 15px 0px;
+}
+
+/* bio picture */
 #contentPic {
     width: 100%;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
     margin-bottom: 10px;
+
+}
+/* Contact page */
+.contactBody {
+    width: 100%;
+    margin: 15px 15px 15px 15px;
     
 }
-.contentBody {
-    
+
+#contactName {
+    width: 100%;
 }
+
+#contactEmail {
+    width: 100%;
+}
+
+#contactMessage {
+    width: 100%;
+    height: 150px;
+}
+
+#button {
+    margin: 15px 15px 15px 0px;
+}
+
+/* Portfolio page */
+.portfolioPics {
+    margin: 15px 15px 15px 15px;
+}
+
+/* every page footer */
 footer {
     position: fixed;
     bottom: 0;
@@ -54,6 +91,7 @@ footer {
     height: 50px;
     border-top: 5px solid grey;
     background: #212529;
+    margin-top: 15px;
 
 
 }

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <title>Assignment2 Bootstrapped</title>
+    <header>
+    <!-- linking bootstrap styling -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- my style sheet so we can override -->
+        <link rel="stylesheet" href="assets/style/style.css">
+    </header>
+    <body>
+    <!-- Here we use bootstraps navbar setup and slightly modify it. -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand col-md-4" id="myBrand" href="index.html">Paul Cwik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-md-4">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav myLinks">
+                    <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+            </nav>
+
+<!-- Starting with background on bottom, to a container with a header, and a main body -->
+        <div class="backgroundImg">
+            <div class="container mainContent">
+                <div class="row" id="contentHeader">  
+                    <div class="col-md-4">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contactBody">
+                        Name<br>
+                        <input id="contactName" type="name" placeholder="John Doe"><br>
+                        Email<br>
+                        <input id="contactEmail" type="email" placeholder="JohnDoe@gmail.com"><br>
+                        Message<br>
+                        <input id="contactMessage" type="text"><br>
+                        <button id="button" type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p id="copyright">Copyright©</p>
+            </footer>
+        </div>
+    </body>
+</html>
