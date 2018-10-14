@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <title>Assignment2 Bootstrapped</title>
+    <header>
+    <!-- linking bootstrap styling -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- my style sheet so we can override -->
+        <link rel="stylesheet" href="assets/style/style.css">
+    </header>
+    <body>
+    <!-- Here we use bootstraps navbar setup and slightly modify it. -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand col-md-4" id="myBrand" href="#">Paul Cwik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-md-4">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav myLinks">
+                    <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div>
+            </div>
+            </nav>
+
+<!-- Starting with background on bottom, to a container with a header, and a main body -->
+        <div class="background">
+            <div class="container mainContent">
+                <div class="row" id="contentHeader">
+                    <div class="col-md-4">
+                        <div class="navName">
+                            <h1>Paul Cwik</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="contentPic" src="assets/images/cat.jpg" alt="This should be my picture">
+                    </div>
+                    <div class="col-md-8 contentBody">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error perspiciatis? Fuga cum nisi exercitationem ipsam magni, dolores officia labore. A sit vel perferendis quaerat quasi provident eum architecto! Maxime.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit facilis qui, debitis possimus, incidunt iure illo vel repellendus laboriosam a distinctio. Fugiat animi maxime labore architecto totam voluptatum beatae eveniet!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, fugiat deserunt officiis aliquid, vero velit minima commodi corrupti magni delectus ipsa, enim laborum impedit fuga tenetur laudantium ipsam nostrum expedita!</p>
+                     </div>
+                </div>
+            </div>
+            <footer>
+                <p id="copyright">Copyright©</p>
+            </footer>
+        </div>
+    </body>
+</html>
